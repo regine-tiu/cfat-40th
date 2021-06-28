@@ -2,6 +2,9 @@ $black: #000
 $white: #fff
 $futura: futura, sans-serif
 $paragraph: raleway, arial, sans-serif
+$h1: 100px
+$h2: 90px
+$h3: 80px
 
 
 // ----- General Styles ----- //
@@ -12,10 +15,17 @@ body
 .row
     display: flex
     justify-content: center
-    align-content: center
+    align-items: center
 
+h1,
+h2,
+h3,
+h4     
+    font-family: $futura
+    font-weight: 400
+    font-style: italic
 
-// ----- Navbar ----- //
+// -------- Navbar -------- //
 .nav-bar
     background-color: $white
 
@@ -32,3 +42,27 @@ nav
                 text-decoration: none
                 text-transform: uppercase
 
+
+// -------- Hero -------- //
+.title-box
+    width: 50%
+
+.cfat-title
+    display: flex
+    justify-content: flex-end
+    font-size: 40px
+    text-align: right
+    padding-right: 4%
+
+    span
+        font-size: 110%
+
+.exhibit-title
+    display: flex
+    justify-content: flex-start
+    background-color: $white
+    color: $black
+    font-size: 40px
+    padding-left: 4%
+
+    
