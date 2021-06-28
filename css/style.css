@@ -90,10 +90,12 @@ nav ul li a {
   flex-direction: row;
   align-content: center;
 }
-.exhibition h5 {
+.exhibition h5 a {
+  color: #fff;
   font-size: 30px;
   font-style: normal;
   text-align: center;
+  text-decoration: none;
 }
 .exhibition .box {
   display: flex;
