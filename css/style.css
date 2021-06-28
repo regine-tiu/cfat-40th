@@ -18,6 +18,17 @@ h4 {
   font-style: italic;
 }
 
+h4 {
+  font-size: 32px;
+}
+
+p {
+  font-family: raleway, arial, sans-serif;
+  line-height: 1.6;
+  width: 50%;
+  text-align: justify;
+}
+
 .nav-bar {
   background-color: #fff;
 }
@@ -56,6 +67,17 @@ nav ul li a {
   color: #000;
   font-size: 40px;
   padding-left: 4%;
+}
+
+.section-line {
+  border-top: 2px solid #fff;
+  width: 200px;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+.curator-text .row {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
