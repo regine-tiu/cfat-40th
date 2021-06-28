@@ -92,6 +92,11 @@ nav ul li a {
   flex-direction: row;
   align-content: center;
 }
+.exhibition h5 {
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+}
 .exhibition .box {
   display: flex;
   justify-content: center;
@@ -101,10 +106,10 @@ nav ul li a {
   height: 315px;
   border: 1px solid #fff;
   margin: 2%;
+  text-align: center;
 }
-.exhibition h5 {
-  font-size: 30px;
-  font-style: normal;
+.exhibition .box-1 {
+  background-image: url('img/homepage-screenshots/davis.png');
 }
 
 /*# sourceMappingURL=style.css.map */
