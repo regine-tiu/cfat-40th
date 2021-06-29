@@ -52,7 +52,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.header .row {
+header .row {
   flex-direction: row;
 }
 
@@ -100,6 +100,11 @@ nav ul li a {
   font-style: normal;
   text-align: center;
   text-decoration: none;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .exhibition .box {
   display: flex;
@@ -110,18 +115,17 @@ nav ul li a {
   height: 315px;
   margin: 2%;
   text-align: center;
+  overflow: hidden;
+  position: relative;
 }
-.exhibition .box-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/davis.png");
-  background-size: cover;
+.exhibition img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
 }
-.exhibition .box-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/loc.png");
-  background-size: cover;
-}
-.exhibition .box-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/divya.png");
-  background-size: cover;
+.exhibition .photo-active img {
+  transform: scale(1.08);
+  transition: 0.5s;
 }
 
 .special-thanks p {
