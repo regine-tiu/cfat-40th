@@ -39,6 +39,7 @@ const subHeader2 = document.getElementById('sub-header2');
 const subHeader3 = document.getElementById('sub-header3');
 const subHeader4 = document.getElementById('sub-header4');
 
+
 function fontColorChange(event){
     let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
     event.target.style.color = randomColor;
@@ -48,4 +49,5 @@ subHeader1.addEventListener('wheel',fontColorChange);
 subHeader2.addEventListener('wheel',fontColorChange);  
 subHeader3.addEventListener('wheel',fontColorChange);  
 subHeader4.addEventListener('wheel',fontColorChange);  
+ 
   
