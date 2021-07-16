@@ -179,9 +179,10 @@ h3 {
   font-size: 65px;
   font-style: normal;
   letter-spacing: 1px;
+  text-align: center;
 }
 
-.davis-hero #artwork-info {
+.artist-hero #artwork-info {
   font-family: futura, sans-serif;
   text-align: center;
   font-weight: 300;
@@ -190,7 +191,7 @@ h3 {
 }
 
 /* Slideshow container */
-.slideshow-container .row {
+.artwork-container .row {
   flex-direction: row;
 }
 
