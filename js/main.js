@@ -18,7 +18,7 @@ $(document).ready(() => {
 
 })
 
-/*----- Title Color Randomizer --------*/
+/*----- Show Title Color Randomizer --------*/
 let targetTitle = document.getElementById('target-title');
 
 function colorValue() {
@@ -30,11 +30,11 @@ function backgroundColorChange(event){
   event.target.style.backgroundColor = randomColor;
 }
 
-targetTitle.addEventListener("wheel", backgroundColorChange);
-
 function fontColorChange(event){
-    let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
-    event.target.style.color = randomColor;
-  }
- 
-  
+  let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
+  event.target.style.color = randomColor;
+}
+
+targetTitle.addEventListener("wheel", backgroundColorChange);
+targetTitle.addEventListener("wheel", fontColorChange);
+
