@@ -37,6 +37,12 @@ ul {
   padding-inline-start: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
 .return-home {
   margin-bottom: 5%;
 }
@@ -69,8 +75,8 @@ nav ul li {
 }
 nav ul li a {
   color: #000;
-  text-decoration: none;
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 header .row {
@@ -109,16 +115,23 @@ header .row {
   margin-bottom: 3%;
 }
 
+.curator-text #quote {
+  width: 40%;
+  margin: 2% 30%;
+  font-style: italic;
+  line-height: 1.8;
+}
+
 .exhibition .exhibit-row {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-content: center;
 }
-.exhibition h5 a {
-  color: #fff;
+.exhibition h5 .artist-name {
   font-size: 30px;
   font-style: normal;
+  font-weight: 400;
   text-align: center;
   text-decoration: none;
   position: absolute;
@@ -151,11 +164,6 @@ header .row {
 
 .special-thanks p {
   text-align: center;
-}
-.special-thanks p a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
 }
 
 .logos ul li {
