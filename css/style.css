@@ -51,6 +51,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
+  text-align: center;
 }
 .return-home a {
   text-decoration: none;
@@ -59,7 +60,7 @@ a {
 }
 .return-home a :hover {
   border-bottom: 1px solid #fff;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .nav-bar {
@@ -178,6 +179,14 @@ h3 {
   font-size: 65px;
   font-style: normal;
   letter-spacing: 1px;
+}
+
+.davis-hero #artwork-info {
+  font-family: futura, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  margin: 4% 0 -2% 0;
+  font-size: 14px;
 }
 
 /* Slideshow container */
