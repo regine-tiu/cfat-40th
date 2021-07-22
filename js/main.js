@@ -1,25 +1,15 @@
 $(document).ready(() => {
-    /*const $curatorSection = $('.curator-text');
-    const $exhibitSection = $('.exhibition');
-    const $landSection = $('.land-acknowledgement');
-    const $thanksSection = $('.special-thanks');
 
-    $curatorSection.on('scroll', () => {
-        $curatorSection.fadeIn(4000); 
-    }) */
+   
+/*-------------- Webpage Fade In -------------*/
+  $('.fadein').addClass('load');
+  $('.fadein-second').addClass('load');
 
-
-    /*----- Photo Gallery Zoom in Hover --------*/
-    $('.box').on('mouseenter', event => { 
-        $(event.currentTarget).addClass('photo-active');
-    }).on('mouseleave', event => {
-        $(event.currentTarget).removeClass('photo-active');
-    });
-
-})
 
 /*----- Show Title Color Randomizer --------*/
 let targetTitle = document.getElementById('target-title');
+let cfatTitle = document.getElementById('cfat-title');
+
 
 function colorValue() {
   return Math.floor(Math.random() * 256);
@@ -37,4 +27,15 @@ function fontColorChange(event){
 
 targetTitle.addEventListener("wheel", backgroundColorChange);
 targetTitle.addEventListener("wheel", fontColorChange);
+cfatTitle.addEventListener("wheel", backgroundColorChange);
 
+
+
+/*----- Photo Gallery Zoom in Hover --------*/
+$('.box').on('mouseenter', event => { 
+  $(event.currentTarget).addClass('photo-active');
+}).on('mouseleave', event => {
+  $(event.currentTarget).removeClass('photo-active');
+});
+
+})

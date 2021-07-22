@@ -1,7 +1,36 @@
+//Color + Fonts
 $black: #000
 $white: #fff
 $futura: futura, sans-serif
 $paragraph: raleway, arial, sans-serif
+
+//Screen Size
+$phone: 480px
+$tablet: 768px
+$mid-laptop: 950px
+$laptop: 1200px
+$desktop: 1400px    
+
+
+// ----- Fade In Classes ----- //
+.fadein
+    opacity: 0
+    -webkit-transition: opacity 1.5s ease-in
+       -moz-transition: opacity 1.5s ease-in
+        -ms-transition: opacity 1.5s ease-in
+         -o-transition: opacity 1.5s ease-in
+            transition: opacity 1.5s ease-in 
+
+.fadein-second
+    opacity: 0
+    -webkit-transition: opacity 4s ease-in
+       -moz-transition: opacity 4s ease-in
+        -ms-transition: opacity 4s ease-in
+         -o-transition: opacity 4s ease-in
+            transition: opacity 4s ease-in     
+
+.load
+    opacity: 1
 
 
 // ----- General Styles ----- //
@@ -35,6 +64,9 @@ p
     text-align: justify
     opacity: 0.85
 
+    @media screen and (max-width: $tablet)
+        width: 55%
+
 ul
     padding-inline-start: 0 
 
@@ -62,9 +94,7 @@ a
             border-bottom: 1px solid $white
             transition: 0.5s
 
-
-       
-            
+          
         
 // -------- Navbar -------- //
 .nav-bar
@@ -101,6 +131,13 @@ header
     text-align: right
     padding-right: 4%
 
+    @media screen and (max-width: $mid-laptop)
+        font-size: 38px
+         padding-right: 6%
+
+    @media screen and (max-width: $tablet)
+        font-size: 32px     
+
     #forthieth
         font-size: 140%
 
@@ -112,6 +149,12 @@ header
     font-size: 42px
     padding-left: 4%
 
+    @media screen and (max-width: $mid-laptop)
+        font-size: 38px
+         padding-right: 6%
+
+    @media screen and (max-width: $tablet)
+        font-size: 34px       
 
 // -------- Section Lines -------- //
 .section-line
@@ -129,6 +172,10 @@ header
         font-style: italic
         line-height: 1.8
 
+        @media screen and (max-width: $tablet)
+            width: 45%
+            margin: 2% 27.5%
+
 
 // ------- Exhbition ------ //
 .exhibition  
@@ -137,6 +184,9 @@ header
         justify-content: center
         flex-direction: row
         align-content: center
+        
+        @media screen and (max-width: $mid-laptop)
+            flex-direction: column
 
     h5
         .artist-name
@@ -163,6 +213,11 @@ header
         overflow: hidden  
         position: relative
 
+        @media screen and (max-width: $mid-laptop)
+            width: 68%
+            height: auto
+            margin: 2% 16%
+
     img
         width: 100%
         height: 100%
@@ -181,13 +236,16 @@ header
 
 // ---- Logos ---- // 
 .logos
+
+
     ul
         li
            display: inline-block
            padding: 0 5px
-
+            
         img
             transform: scale(0.8)
+
 
 ///////////////////////////////////////////////////
 //-------- E X H B I T I O N   P A G E S --------//
