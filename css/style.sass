@@ -6,6 +6,7 @@ $paragraph: raleway, arial, sans-serif
 
 //Screen Size
 $phone: 480px
+$mid-tablet: 600px
 $tablet: 768px
 $mid-laptop: 950px
 $laptop: 1200px
@@ -54,6 +55,7 @@ h5
     font-style: italic
     opacity: 0.9
 
+    
 h4
     font-size: 36px  
 
@@ -120,9 +122,14 @@ header
     .row
         flex-direction: row
 
+        @media screen and (max-width: $mid-tablet)
+            flex-direction: column
+
 .title-box
     width: 50%
     padding: 4% 0
+    @media screen and (max-width: $mid-tablet)
+        width: 85%
 
 .cfat-title
     display: flex
@@ -136,7 +143,10 @@ header
          padding-right: 6%
 
     @media screen and (max-width: $tablet)
-        font-size: 32px     
+        font-size: 32px 
+
+    @media screen and (max-width: $mid-tablet)    
+        padding-right: 15%    
 
     #forthieth
         font-size: 140%
@@ -149,12 +159,15 @@ header
     font-size: 42px
     padding-left: 4%
 
+
     @media screen and (max-width: $mid-laptop)
         font-size: 38px
-         padding-right: 6%
 
     @media screen and (max-width: $tablet)
-        font-size: 34px       
+        font-size: 34px
+
+    @media screen and (max-width: $mid-tablet)    
+        padding-left: 15%    
 
 // -------- Section Lines -------- //
 .section-line

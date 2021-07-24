@@ -110,10 +110,20 @@ nav ul li a {
 header .row {
   flex-direction: row;
 }
+@media screen and (max-width: 600px) {
+  header .row {
+    flex-direction: column;
+  }
+}
 
 .title-box {
   width: 50%;
   padding: 4% 0;
+}
+@media screen and (max-width: 600px) {
+  .title-box {
+    width: 85%;
+  }
 }
 
 .cfat-title {
@@ -134,6 +144,11 @@ header .row {
     font-size: 32px;
   }
 }
+@media screen and (max-width: 600px) {
+  .cfat-title {
+    padding-right: 15%;
+  }
+}
 .cfat-title #forthieth {
   font-size: 140%;
 }
@@ -149,12 +164,16 @@ header .row {
 @media screen and (max-width: 950px) {
   .exhibit-title {
     font-size: 38px;
-    font-size-padding-right: 6%;
   }
 }
 @media screen and (max-width: 768px) {
   .exhibit-title {
     font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .exhibit-title {
+    padding-left: 15%;
   }
 }
 
