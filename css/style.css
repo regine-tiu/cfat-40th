@@ -9,11 +9,11 @@
 
 .fadein-second {
   opacity: 0;
-  -webkit-transition: opacity 4s ease-in;
-  -webkit-transition--moz-transition: opacity 4s ease-in;
-  -webkit-transition--moz-transition--ms-transition: opacity 4s ease-in;
-  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 4s ease-in;
-  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 4s ease-in;
+  -webkit-transition: opacity 3s ease-in;
+  -webkit-transition--moz-transition: opacity 3s ease-in;
+  -webkit-transition--moz-transition--ms-transition: opacity 3s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 3s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 3s ease-in;
 }
 
 .load {
@@ -128,7 +128,7 @@ nav ul li {
 nav ul li a {
   color: #000;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 header .row {
