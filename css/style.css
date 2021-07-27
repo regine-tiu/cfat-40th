@@ -46,6 +46,11 @@ h5 {
 h4 {
   font-size: 36px;
 }
+@media screen and (max-width: 480px) {
+  h4 {
+    font-size: 26px;
+  }
+}
 
 p {
   font-family: raleway, arial, sans-serif;
@@ -56,12 +61,17 @@ p {
 }
 @media screen and (min-width: 1400px) {
   p {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 }
 @media screen and (max-width: 768px) {
   p {
     width: 55%;
+  }
+}
+@media screen and (max-width: 480px) {
+  p {
+    width: 60%;
   }
 }
 
@@ -201,6 +211,12 @@ header .row {
     margin: 2% 27.5%;
   }
 }
+@media screen and (max-width: 480px) {
+  .curator-text #quote {
+    text-align: center;
+    width: 60%;
+  }
+}
 
 .exhibition .exhibit-row {
   display: flex;
@@ -224,6 +240,11 @@ header .row {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 480px) {
+  .exhibition h5 .artist-name {
+    font-size: 24px;
+  }
 }
 .exhibition .box {
   display: flex;
@@ -254,6 +275,11 @@ header .row {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 480px) {
+  .special-thanks {
+    margin-bottom: 20%;
+  }
+}
 .special-thanks p {
   text-align: center;
 }
@@ -285,6 +311,11 @@ header .row {
 @media screen and (max-width: 768px) {
   .logos ul img {
     transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 480px) {
+  .logos ul img {
+    display: none;
   }
 }
 
