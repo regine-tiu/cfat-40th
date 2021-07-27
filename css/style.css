@@ -9,11 +9,11 @@
 
 .fadein-second {
   opacity: 0;
-  -webkit-transition: opacity 3s ease-in;
-  -webkit-transition--moz-transition: opacity 3s ease-in;
-  -webkit-transition--moz-transition--ms-transition: opacity 3s ease-in;
-  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 3s ease-in;
-  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 3s ease-in;
+  -webkit-transition: opacity 2.5s ease-in;
+  -webkit-transition--moz-transition: opacity 2.5s ease-in;
+  -webkit-transition--moz-transition--ms-transition: opacity 2.5s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 2.5s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 2.5s ease-in;
 }
 
 .load {
