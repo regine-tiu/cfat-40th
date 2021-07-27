@@ -401,4 +401,16 @@ h3 {
   color: grey;
 }
 
+@media screen and (max-width: 768px) {
+  .soundcloud-box {
+    height: 250px;
+    margin: 2% 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .soundcloud-box {
+    margin: 3% 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
