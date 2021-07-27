@@ -57,6 +57,10 @@ h5
     
 h4
     font-size: 36px  
+
+    @media screen and (max-width: $tablet)
+        font-size: 32px
+
     @media screen and (max-width: $phone) 
         font-size: 26px
 
@@ -68,14 +72,13 @@ p
     opacity: 0.85
 
     @media screen and (min-width: $desktop)
-        font-size: 1.4em
+        font-size: 1.2em
 
     @media screen and (max-width: $tablet)
         width: 55%
 
     @media screen and (max-width: $phone)  
         width: 60% 
-
 
 ul
     padding-inline-start: 0 
@@ -94,7 +97,8 @@ a
         font-weight: 400
         margin:0
         text-align: center
-
+        @media screen and (min-width: $desktop)
+            font-size: 1.2em
     a
         text-decoration: none
         color: $white
@@ -103,7 +107,6 @@ a
         :hover
             border-bottom: 1px solid $white
             transition: 0.5s
-
           
         
 // -------- Navbar -------- //
@@ -166,7 +169,6 @@ header
     color: $black
     font-size: 42px
     padding-left: 4%
-
 
     @media screen and (max-width: $mid-laptop)
         font-size: 38px
@@ -299,6 +301,11 @@ h3
     letter-spacing: 1px
     text-align: center
 
+    @media screen and (max-width: $tablet)
+        font-size: 50px
+    @media screen and (max-width: $phone)  
+        font-size: 35px
+
 .artist-hero
     #artwork-info
         font-family: $futura
@@ -306,7 +313,8 @@ h3
         font-weight: 300
         margin: 4% 0 -2% 0
         font-size: 14px
-
+        @media screen and (min-width: $desktop)
+            font-size: 1em
 
 ////////////////////////////////////
 //-------- LOC Vimeo Link --------//  
@@ -331,7 +339,7 @@ h3
 /* Hide the images by default */
 .mySlides
   display: none
-  width: 85%
+  width: 80%
 
 /* Next & previous buttons */
 .prev, .next
