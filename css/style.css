@@ -160,7 +160,7 @@ header .row {
 @media screen and (max-width: 950px) {
   .cfat-title {
     font-size: 38px;
-    padding-right: 6%;
+    font-size-padding-right: 6%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -363,6 +363,22 @@ h3 {
 @media screen and (min-width: 1400px) {
   .artist-hero #artwork-info {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .vimeo-player {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .vimeo-player {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .vimeo-player {
+    height: 300px;
   }
 }
 
