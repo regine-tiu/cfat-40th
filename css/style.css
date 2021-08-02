@@ -33,7 +33,13 @@ body {
 }
 
 h1,
-h2, 
+h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.9;
+}
+
 h3,
 h4,
 h5 {
@@ -71,7 +77,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   p {
-    width: 55%;
+    width: 65%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -165,7 +171,7 @@ header .row {
 }
 @media screen and (max-width: 768px) {
   .cfat-title {
-    font-size: 34px;
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -192,7 +198,7 @@ header .row {
 }
 @media screen and (max-width: 768px) {
   .exhibit-title {
-    font-size: 34px;
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -216,8 +222,8 @@ header .row {
 }
 @media screen and (max-width: 768px) {
   .curator-text #quote {
-    width: 45%;
-    margin: 2% 27.5%;
+    width: 50%;
+    margin: 2% 25%;
   }
 }
 @media screen and (max-width: 480px) {
