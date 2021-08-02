@@ -29,7 +29,9 @@ targetTitle.addEventListener("wheel", backgroundColorChange);
 targetTitle.addEventListener("wheel", fontColorChange);
 cfatTitle.addEventListener("wheel", backgroundColorChange);
 
-
+targetTitle.addEventListener("touchmove", backgroundColorChange);
+targetTitle.addEventListener("touchmove", fontColorChange);
+cfatTitle.addEventListener("touchmove", backgroundColorChange);
 
 /*----- Photo Gallery Zoom in Hover --------*/
 $('.box').on('mouseenter', event => { 
