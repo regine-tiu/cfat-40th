@@ -213,6 +213,11 @@ header .row {
   margin-top: 8%;
   margin-bottom: 3%;
 }
+@media screen and (max-width: 480px) {
+  .section-line {
+    border-top: 1px solid white;
+  }
+}
 
 .curator-text #quote {
   width: 44%;
