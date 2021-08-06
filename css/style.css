@@ -49,20 +49,6 @@ h5 {
   opacity: 0.9;
 }
 
-h4 {
-  font-size: 36px;
-}
-@media screen and (max-width: 768px) {
-  h4 {
-    font-size: 32px;
-  }
-}
-@media screen and (max-width: 480px) {
-  h4 {
-    font-size: 26px;
-  }
-}
-
 p {
   font-family: raleway, arial, sans-serif;
   line-height: 1.6;
@@ -363,6 +349,21 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 36px;
+}
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 32px;
+    margin: 4% 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+
 .artist-hero #artwork-info {
   font-family: futura-pt, sans-serif;
   text-align: center;
@@ -374,6 +375,10 @@ h3 {
   .artist-hero #artwork-info {
     font-size: 20px;
   }
+}
+
+.artist-text .author {
+  font-family: raleway, arial, sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
